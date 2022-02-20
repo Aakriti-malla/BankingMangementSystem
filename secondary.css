@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+/* customerdetails */
+
+#info h1 {
+  margin-top: 30px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+#info b{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+}
+
+.details {
+  line-height: 1.6;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 600px;
+  height: 250px;
+  margin: 10px auto 10px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 20px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s ease;
+}
+
+.details:hover {
+  border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* contact */
+
+#btn {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.details button {
+  text-align: center;
+}
+
+.btn {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+#cusbody {
+  background-image: linear-gradient(#a770ef, #cf8bf3, #fdb99b);
+  background-attachment: fixed;
+}
+
+/* transferpage */
+
+.container2 {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  height: 450px; 
+  width: 600px;
+  margin: 20px auto 0px auto;
+}
+
+.container2 h4{
+  margin: 30px 0px 20px 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+
+.container2 h3{
+  font-variant: small-caps;
+  font-size: 65px;
+  color: rgb(61, 123, 30);
+}
+
+form{
+  text-align: center;
+  margin-top: 20px;
+}
+
+input{
+  width: 60;
+  padding: 6px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+input[type=submit] {
+  background-color: #6097e9;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  
+  font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  min-height: 20px;
+  min-width: 120px;
+  padding: 10px 20px;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  transition: all .2s cubic-bezier(.22, .61, .36, 1);
+}
+
+input[type=submit]:hover {
+  background-color: #006aff;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-66 {
+    padding: 16px 44px;
+    min-width: 150px;
+  }
+}

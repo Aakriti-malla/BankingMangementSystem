@@ -1,0 +1,56 @@
+nav .navbar{ 
+	background-color: rgb(128, 128, 240);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(45deg, #a0b5eb, #c9f0e4);
+  font-family: sans-serif;
+  font-weight: 100;
+  background-attachment: fixed;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+table {
+  margin: 10px auto 10px auto;
+  width: 800px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgb(98, 55, 119);
+  text-align: center;
+}
+
+th {
+  text-align: center;
+  color: rgb(34, 34, 146);
+  background-color: rgb(114, 148, 212);
+}
+
+tbody tr:hover {
+  background-color: rgb(207, 199, 225);
+}
+
+#a{
+  text-decoration: none;
+  color: rgb(5, 23, 56);
+  font-weight: bold;
+}
