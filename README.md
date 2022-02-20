@@ -1,8 +1,10 @@
 # BankingMangementSystem
 
+Link : http://bankingmanagementsystem.saksh.xyz/
+
 Here is a Basic Banking Mangement System Where one can view all customer's details and also transfer amount in between the customers.
 
-<b>Tech Stack used :
+## <b>Tech Stack used :
 <ul>
 <li>HTML</li>
 <li>CSS</li>
@@ -14,7 +16,7 @@ Here is a Basic Banking Mangement System Where one can view all customer's detai
 <b>Flow of the Website:</b><br>
 Home Page > View all Customers > Select and View one Customer > Transfer Money > Select Customer to Transfer to > View all Customers.
 
-## Link To The Website And Screenshots:
+## Screenshots:
 
 <img width="960" alt="1" src="https://user-images.githubusercontent.com/90200664/154848313-ff90347a-36f6-490e-bcdc-afade73955fe.PNG">
 <img width="944" alt="2" src="https://user-images.githubusercontent.com/90200664/154848321-cbe4b4e6-e799-4d48-99d1-f986958b51d5.PNG">
