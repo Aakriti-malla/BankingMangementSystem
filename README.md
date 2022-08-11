@@ -1,6 +1,6 @@
 # BankingMangementSystem
 
-Link : http://bankingmanagementsystem.saksh.xyz/
+Link : https://aakriti-malla.github.io/BankingMangementSystem/
 
 Here is a Basic Banking Mangement System Where one can view all customer's details and also transfer amount in between the customers.
 
