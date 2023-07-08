@@ -9,9 +9,9 @@ Here is a Basic Banking Mangement System Where one can view all customer's detai
 <li>HTML</li>
 <li>CSS</li>
 <li>PHP</li>
-<li>MySql</li>
+<li>MySQL</li>
 </ul></b><br>
-<p>So, I have used HTML and CSS for the FRONTEND, PHP for the BACKEND and MySql For the DATABASE! </P>
+<p>So, I have used HTML and CSS for the Frontend, PHP for the Backend and MySQL For the Database! </P>
 <br>
 <b>Flow of the Website:</b><br>
 Home Page > View all Customers > Select and View one Customer > Transfer Money > Select Customer to Transfer to > View all Customers.
